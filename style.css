@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=Poppins&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat&family=PT+Serif&family=Poppins&family=Space+Mono&display=swap');
+
+.header {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.top-header {
+
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -0.045em;
+    
+    color: #000000;    
+}
+
+.right-header {
+    
+    padding-top: 50px;
+    padding-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-header {
+
+    height: 5px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+
+}
+
+.text2-header {
+
+    width: 400px;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    
+    color: #000000;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.images {
+    float: left;
+    height: 300px;
+    width: 250px;
+}
+
+.images2 {
+    padding: 50px;
+    padding-bottom: 0px;
+    height: 300px;
+    width: 250px;
+}
+
+.first-section {
+    padding: 50px;
+    display: flex;
+}
+
+.second-section {
+    padding: 50px;
+    display: flex;
+}
+
+.special-section {
+    padding-left: 50px;
+    
+}
+
+.test {
+    transform: rotate(90deg);
+}
+
+
+
